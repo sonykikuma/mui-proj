@@ -22,8 +22,9 @@ export default function MediaCard() {
           </Typography>
 
           <Typography variant="body2" color="text.secondary">
-            No need to get clever. Tell people exactly what you're offering,
-            then use this space to communicate your key value proposition.
+            No need to get clever. Tell people exactly what you&apos;re
+            offering, then use this space to communicate your key value
+            proposition.
           </Typography>
         </CardContent>
         <CardActions>
