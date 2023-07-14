@@ -1,10 +1,17 @@
 import Image from "next/image";
 import BasicMenu from "./components/Menu";
+import Navbar from "./components/Navbar";
+import Top from "./components/Top";
+import Main from "./components/Main";
+import MediaCard from "./components/MediaCard";
 
 export default function Home() {
   return (
     <>
-      <BasicMenu />
+      {" "}
+      <Navbar />
+      <Top />
+      <MediaCard />
     </>
   );
 }

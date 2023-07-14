@@ -5,6 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Image from "next/image";
+import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -62,7 +63,10 @@ const Navbar = () => {
       </div>
       <div className="border-b border-blue-100"></div>
       <div className="uppercase text-xs sm:ml-20 mt-10 cursor-pointer">
-        <Link href="/">Back to Templates</Link>
+        <Link href="/">
+          <KeyboardArrowLeftIcon className="text-blue-500" />
+          Back to Templates
+        </Link>
       </div>
     </>
   );
