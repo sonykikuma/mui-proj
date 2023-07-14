@@ -11,4 +11,6 @@ yarn dev
 pnpm dev
 ```
 Install Material UI
+project is deployed at vercel
+vercel link-https://mui-proj-cometlab.vercel.app/
 
